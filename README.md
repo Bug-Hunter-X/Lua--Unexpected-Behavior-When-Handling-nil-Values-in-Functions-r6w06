@@ -1,0 +1,3 @@
+# Lua: Unexpected Behavior When Handling nil Values in Functions
+
+This repository demonstrates a common but subtle bug in Lua related to how nil values are handled in functions.  The `bar` function incorrectly returns 0 when it receives a `nil` argument instead of handling the `nil` appropriately (e.g., returning `nil` or throwing an error).  The `foo` function shows the correct way to handle the `nil` value.  The difference in behavior illustrates the potential pitfalls when working with `nil` in Lua.
